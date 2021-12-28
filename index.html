@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="vendor/components/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+    <title>2d map generator with A*</title>
+</head>
+
+<body>
+    <div id="legend">
+        <span class="start">&#9724</span> = Start
+        <span class="finish">&#9724</span> = Cél
+        <span class="obstacle">&#9724</span> = Fal
+    </div>
+    <form id="createMap" method="POST">
+        <input type="number" id="x" placeholder="X" required>
+        <input type="number" id="y" placeholder="Y" required>
+
+        <div id="buttonHolder">
+            <button id="generate" type="button" value="Generál">Generál</button>
+            <button id="solve" type="button" value="Megold">Megold</button>
+            <div id="result">Kérek 2 számot</div>
+        </div>
+    </form>
+    <div id="map"> </div>
+</body>
+
+</html>

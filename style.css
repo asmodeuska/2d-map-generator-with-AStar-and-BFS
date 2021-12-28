@@ -1,0 +1,68 @@
+td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-width: 1px;
+    border-color: #80ed99;
+    border-style: solid;
+    background-color: #57cc99;
+}
+
+
+table {
+    background-color: #38a3a5;
+    border: #22577a;
+    border-width: 3px;
+    border-style: solid;
+    margin: auto;
+
+}
+
+#map {
+    margin: auto;
+    padding: 20px;
+
+}
+
+#createMap {
+    text-align: center;
+}
+
+#buttonHolder {
+    padding-top: 10px;
+}
+
+#result {
+    padding-top: 10px;
+}
+
+#legend {
+    position: absolute;
+    right: 10px;
+}
+
+
+#map .obstacle {
+    background-color: black;
+}
+
+#map .start {
+    background-color: rgb(175, 239, 255);
+}
+
+#map .finish {
+
+    background-color: rgb(240, 0, 32);
+}
+
+#legend .start {
+    color: rgb(175, 239, 255);
+}
+
+#legend .obstacle {
+    color: rgb(240, 0, 32);
+}
+
+#legend .finish {
+    color: black;
+}
